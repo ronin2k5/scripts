@@ -15,14 +15,16 @@ echo ----------------------------------Installing Updates----------------------
 #command to get list of outdated ports
 #sudo port outdated | awk '{print $1;}
 
-sudo port upgrade outdated
+sudo port -c upgrade outdated
 
 #cleanup
-sudo port -f clean --all all
-sudo port -f uninstall inactive
-sudo rm -rf /opt/local/var/macports/build/*
-sudo rm -rf /opt/local/var/macports/distfiles/*
-sudo rm -rf /opt/local/var/macports/packages/*
+#the below set of commands take a long time to run,
+#so run them all together occassionally to cleanup the build environment
+# sudo port -f clean --all all
+# sudo port -f uninstall inactive
+# sudo rm -rf /opt/local/var/macports/build/*
+# sudo rm -rf /opt/local/var/macports/distfiles/*
+# sudo rm -rf /opt/local/var/macports/packages/*
 
 #command to check which macports are installed
 #port installed
@@ -68,6 +70,12 @@ brew upgrade
 
 #gem
 echo ==================================Installing Gem Updates==================
+#useful RVM (ruby version manager) commands
+#install with "curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby"
+#rvm list - list all installed versions
+#rvm <ruby version> - switch to <ruby version>
+#rvm --default use <version> - switch default to <version>
+#rvmsudo remove <version> - remove ruby <version>
 echo ----------------------------------Updating RubyGems System----------------
 sudo gem update --system
 echo ----------------------------------Installing Updates----------------------
