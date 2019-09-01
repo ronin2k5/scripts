@@ -1,3 +1,3 @@
 #!/bin/sh
 
-pip show $1
+pip3 show $1
