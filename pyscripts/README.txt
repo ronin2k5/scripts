@@ -1,3 +1,5 @@
+# pyscripts
+
 These scripts should be saved in a place where they can be accessed globally.
 
 When using them, be sure to call them from the project folder.
