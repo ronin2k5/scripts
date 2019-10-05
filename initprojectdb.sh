@@ -9,8 +9,9 @@ mkdir dml
 
 #create script files
 cd ddl
-echo '#drop database $1;' > database.sql
-echo 'create database $1;' >> database.sql
+echo '--drop database '$1';' > database.sql
+echo 'create database '$1';' >> database.sql
 
 touch tabes.sql
 touch views.sql
+touch triggers.sql
