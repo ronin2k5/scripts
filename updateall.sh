@@ -1,4 +1,7 @@
 #!/bin/sh
+#This script centrally installs all the various updates required on my mac environment.
+#The script isn't smart and can't find the required tools on it's own, and so needs to be altered as needed.
+
 
 #XCode
 echo ==================================Installing XCode Updates=================
@@ -121,6 +124,6 @@ rm requirements.txt
 #Anaconda environment
 echo ==================================Installing Anaconda Updates=============
 echo ----------------------------------Update Conda----------------------------
-/Applications/Anaconda/anaconda/bin/conda update -n base conda
+sudo /Applications/Anaconda/anaconda/bin/conda update -n base conda
 echo ----------------------------------Installing Updates----------------------
-/Applications/Anaconda/anaconda/bin/conda update --all
+sudo /Applications/Anaconda/anaconda/bin/conda update --all
