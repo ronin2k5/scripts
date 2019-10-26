@@ -1,6 +1,6 @@
 # scripts
 
-Collection of useful scripts. This collection and the scripts within it will evlove over time.
+Collection of useful scripts. This collection and the scripts within it will evolve over time.
 
 ## pyscripts/
 - collection of scripts for managing python projects
@@ -8,8 +8,11 @@ Collection of useful scripts. This collection and the scripts within it will evl
 ## beanshell-console.sh
 - launch beanshell
 
-## createproject.bat
+## createproject.bat / createproject.sh
 - create a new project with github setup
+
+## initprojectdb.sh
+- create initial project database
 
 ## listpath.sh
 - list the path environment variable as a list
@@ -20,7 +23,7 @@ Collection of useful scripts. This collection and the scripts within it will evl
 ## updateall.sh
 - software update script for macOS
 
-## windLaunch.sh
+## wineLaunch.sh
 - launch Wine
 
 ## wipeFreeSpace.sh
