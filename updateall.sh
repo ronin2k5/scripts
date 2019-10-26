@@ -15,11 +15,16 @@ echo ----------------------------------Installing Updates----------------------
 #command to get list of outdated ports
 #sudo port outdated | awk '{print $1;}
 
+#list inactive ports
+#port installed inactive
+
+#first uninstall inactive ports, so no time is wasted upgrading them
+sudo port -f uninstall inactive
+
 sudo port upgrade outdated
 
 #cleanup
 #sudo port -f clean --all all
-sudo port -f uninstall inactive
 sudo port -f clean --all active
 sudo rm -rf /opt/local/var/macports/build/*
 sudo rm -rf /opt/local/var/macports/distfiles/*
@@ -112,3 +117,10 @@ sudo -H pip3 install --upgrade -r requirements.txt
 rm temp.txt
 rm temp2.txt
 rm requirements.txt
+
+#Anaconda environment
+echo ==================================Installing Anaconda Updates=============
+echo ----------------------------------Update Conda----------------------------
+/Applications/Anaconda/anaconda/bin/conda update -n base conda
+echo ----------------------------------Installing Updates----------------------
+/Applications/Anaconda/anaconda/bin/conda update --all
