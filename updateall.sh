@@ -7,8 +7,9 @@
 echo ==================================Installing XCode Updates=================
 xcode-select --install
 #may need to run the following after new xcode-select installs
-#sudo xcodebuild -license
 #sudo xcodebuild -license accept
+#if you want toactually read the agreement, stead use
+#sudo xcodebuild -license
 
 #mac ports
 echo ==================================Installing MacPorts Updates=============
