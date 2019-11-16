@@ -25,7 +25,7 @@ echo ----------------------------------Installing Updates----------------------
 #first uninstall inactive ports, so no time is wasted upgrading them
 sudo port -f uninstall inactive
 
-sudo port upgrade outdated
+sudo port -p upgrade outdated
 
 #cleanup
 #sudo port -f clean --all all
