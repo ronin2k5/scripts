@@ -2,7 +2,6 @@
 #This script centrally installs all the various updates required on my mac environment.
 #The script isn't smart and can't find the required tools on it's own, and so needs to be altered as needed.
 
-
 #XCode
 echo ==================================Installing XCode Updates=================
 xcode-select --install
