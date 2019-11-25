@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 #This script centrally installs all the various updates required on my mac environment.
 #The script isn't smart and can't find the required tools on it's own, and so needs to be altered as needed.
 
@@ -24,6 +24,9 @@ echo ----------------------------------Installing Updates----------------------
 
 #first uninstall inactive ports, so no time is wasted upgrading them
 sudo port -f uninstall inactive
+
+#remove old versions of ports
+sudo port -u uninstall
 
 sudo port -p upgrade outdated
 
@@ -60,6 +63,9 @@ brew cask upgrade --greedy
 
 #list all outdated brews
 #brew outdated
+
+#list all installed brews
+#brew list
 
 #remove a homebrew package
 #brew remove <packagename>
