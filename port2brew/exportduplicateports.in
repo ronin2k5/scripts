@@ -1,0 +1,5 @@
+.headers off
+.mode csv
+.output ports-duplicate.csv
+select * from v_port_duplicate;
+.quit

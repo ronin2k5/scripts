@@ -1,0 +1,7 @@
+delete from brew;
+.import brews.txt brew
+delete from brewinstalled;
+.import brews-installed.txt brewinstalled
+delete from port;
+.import ports-active.txt port
+.quit

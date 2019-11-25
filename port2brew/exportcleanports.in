@@ -1,0 +1,5 @@
+.headers off
+.mode csv
+.output ports-clean.csv
+select * from v_port_clean;
+.quit

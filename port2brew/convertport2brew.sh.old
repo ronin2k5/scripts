@@ -1,0 +1,9 @@
+#!/bin/zsh
+
+input=convertport2brew.csv
+while IFS= read -r line
+do
+    echo $line
+    source ./installbrew.sh $line
+    source ./removeport.sh $line
+done < $input

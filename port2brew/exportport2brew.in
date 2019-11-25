@@ -1,0 +1,5 @@
+.headers off
+.mode csv
+.output convertport2brew.csv
+select * from v_port2brew;
+.quit

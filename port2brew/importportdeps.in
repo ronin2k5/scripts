@@ -1,0 +1,4 @@
+.mode csv
+delete from portdependency;
+.import portdeps.csv portdependency
+.quit
