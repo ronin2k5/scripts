@@ -4,11 +4,16 @@
 # You can grant full disk access by:
 # Launching Preferences
 # Going to Security & Privacy
+# Go to the Privacy Tab
 # In the left pane, scroll down to Full Disk Access and select it
 # In the bottom of the window, click the lock icon and enter your password
 # In the righ pane, press the + button and select whichever terminal app you like to use
 # Remenber to relock the security settings by clicking the lock icon
 # You must restart the terminal app for changes to take effect
+
+# check existing disk usage
+echo Usage before cleaning:
+df -h
 
 # user log files
 sudo rm -rf ~/Library/Logs/*
@@ -67,3 +72,6 @@ sudo rm -rf /private/var/log/*
 
 #trash bins
 
+# check disk usage after cleaning
+echo Usage after cleaning:
+df -h

@@ -121,10 +121,10 @@ echo ----------------------------------Installing Updates----------------------
 
 #sudo -H pip3 freeze > requirements.txt
 #sudo -H pip3 list --outdated  | awk '{print $1;}' > requirements.txt
-sudo -H pip3 list --outdated  | awk '{printf "%s",$1;printf "==";print $3}' > temp.txt; sed '1d' temp.txt > temp2.txt;sed '1d' temp2.txt > requirements.txt
-sudo -H pip3 install --upgrade -r requirements.txt
-rm temp.txt
+pip3 list --outdated  | awk '{printf "%s",$1;printf "==";print $3}' > temp.txt; sed '1d' temp.txt > temp2.txt;sed '1d' temp2.txt > requirements.txt
+sudo pip3 install --upgrade -r requirements.txt
 rm temp2.txt
+rm temp.txt
 rm requirements.txt
 
 #Anaconda environment

@@ -21,8 +21,8 @@ def get_immediate_deps(portname):
 
 def get_deps_tree(portname):
     deps = get_immediate_deps(portname)
-    # deps_tree = [(d, get_deps_tree(d)) for d in deps]
-    deps_tree = [(d, None) for d in deps]
+    deps_tree = [(d, get_deps_tree(d)) for d in deps]
+    # deps_tree = [(d, None) for d in deps]
     return deps_tree
 
 def print_deps_tree(deps_tree, indent=0):
