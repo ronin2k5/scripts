@@ -3,7 +3,7 @@
 #The script isn't smart and can't find the required tools on it's own, and so needs to be altered as needed.
 
 #XCode
-echo ==================================Installing XCode Updates=================
+# echo ==================================Installing XCode Updates=================
 xcode-select --install
 #may need to run the following after new xcode-select installs
 #sudo xcodebuild -license accept
@@ -11,10 +11,10 @@ xcode-select --install
 #sudo xcodebuild -license
 
 #mac ports
-echo ==================================Installing MacPorts Updates=============
-echo ----------------------------------Updating Mac Ports----------------------
+# echo ==================================Installing MacPorts Updates=============
+# echo ----------------------------------Updating Mac Ports----------------------
 sudo port -v selfupdate
-echo ----------------------------------Installing Updates----------------------
+# echo ----------------------------------Installing Updates----------------------
 #command to get list of outdated ports
 #sudo port outdated | awk '{print $1;}
 
@@ -43,10 +43,10 @@ sudo rm -rf /opt/local/var/macports/packages/*
 #sudo port uninstall --follow-dependencies <portname>
 
 #homebrew
-echo ==================================Installing Homebrew Updates=============
-echo ----------------------------------Updating Repository List----------------
+# echo ==================================Installing Homebrew Updates=============
+# echo ----------------------------------Updating Repository List----------------
 brew update
-echo ----------------------------------Installing Updates----------------------
+# echo ----------------------------------Installing Updates----------------------
 brew upgrade
 
 #homebrew cask
@@ -86,36 +86,36 @@ brew cask upgrade --greedy
 #brew link <package>
 
 #gem
-echo ==================================Installing Gem Updates==================
-echo ----------------------------------Updating RubyGems System----------------
+# echo ==================================Installing Gem Updates==================
+# echo ----------------------------------Updating RubyGems System----------------
 sudo gem update --system
-echo ----------------------------------Installing Updates----------------------
+# echo ----------------------------------Installing Updates----------------------
 #list outdated gems
 #sudo gem outdated
 
 sudo gem update
 
 #node package manager
-echo ==================================Installing Node Updates=================
+# echo ==================================Installing Node Updates=================
 
 #if npm breaks, try the following:
 #sudo rm -rf /usr/local/lib/node_modules/npm
 #brew reinstall node
 
-echo ----------------------------------Updating NPM----------------------------
+# echo ----------------------------------Updating NPM----------------------------
 sudo npm install -g npm@latest
 #sudo npm i -g npm
-echo ----------------------------------Installing Updates----------------------
+# echo ----------------------------------Installing Updates----------------------
 #list outdated packages
 #sudo npm outdated
 
 sudo npm update -g
 
 #pip - PyPi Python 3 Package Installer
-echo ==================================Installing Pip Updates==================
-echo ----------------------------------Update PIP------------------------------
+# echo ==================================Installing Pip Updates==================
+# echo ----------------------------------Update PIP------------------------------
 sudo -H pip3 install --upgrade pip
-echo ----------------------------------Installing Updates----------------------
+# echo ----------------------------------Installing Updates----------------------
 #list outdated packages
 #pip3 list --outdated
 
@@ -128,8 +128,8 @@ rm temp.txt
 rm requirements.txt
 
 #Anaconda environment
-echo ==================================Installing Anaconda Updates=============
-echo ----------------------------------Update Conda----------------------------
+# echo ==================================Installing Anaconda Updates=============
+# echo ----------------------------------Update Conda----------------------------
 sudo /Applications/Anaconda/anaconda/bin/conda update -n base conda
-echo ----------------------------------Installing Updates----------------------
+# echo ----------------------------------Installing Updates----------------------
 sudo /Applications/Anaconda/anaconda/bin/conda update --all
