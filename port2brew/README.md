@@ -1,27 +1,41 @@
--to do the full end to end conversion
-	./port2brew.sh
+# SCRIPTS
 
--to get latest brew and port lists
-	./listallbrews.sh
-	./listactiveports.sh
+- to do the full end to end conversion
 
--to create and initialize the db
-	./initdb.sh
+		./port2brew.sh
 
--to import the lists into sqlite3 tables
-	./importlists.sh
+- to get latest brew and port lists
 
--to export clean port list
-	./exportcleanports.sh
+		./listallbrews.sh
+		./listactiveports.sh
 
--to get port dependencies
-	python port-deps-list.py -f ports-clean.csv
+- to create and initialize the db
 
--to import port dependencies into sqlite3 tables
-	./importportdeps.sh
+		./initdb.sh
 
--to export conversion list
-	./exportport2brew.sh
+- to import the lists into sqlite3 tables
 
--TODO
+		./importlists.sh
+
+- to export clean port list
+
+		./exportcleanports.sh
+
+- to get port dependencies
+
+		python port-deps-list.py -f ports-clean.csv
+
+- to import port dependencies into sqlite3 tables
+
+		./importportdeps.sh
+
+- to export conversion list
+
+		./exportport2brew.sh
+
+- to cleanup all work files
+
+		./resetall.sh
+
+# TODO
 	-include version info

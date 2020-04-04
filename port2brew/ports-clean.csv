@@ -19,6 +19,7 @@ cargo-bootstrap
 cctools
 chromaprint
 cmake
+coreutils
 curl
 curl-ca-bundle
 db48
@@ -64,6 +65,7 @@ gnome-common
 gnome-doc-utils
 gnutls
 gobject-introspection
+gperf
 graphene
 graphite2
 graphviz
@@ -82,6 +84,7 @@ harfbuzz-icu
 help2man
 hicolor-icon-theme
 hyphen
+icon-naming-utils
 icu
 ilmbase
 ImageMagick
@@ -92,6 +95,7 @@ jasper
 jbig2dec
 jbigkit
 jpeg
+json-glib
 kerberos5
 lame
 lcms
@@ -107,6 +111,7 @@ libcomerr
 libcroco
 libcxx
 libdca
+libde265
 libdv
 libdvdcss
 libdvdnav
@@ -118,6 +123,7 @@ libffi
 libgcrypt
 libGLU
 libgpg-error
+libheif
 libiconv
 libidn
 libidn2
@@ -126,6 +132,7 @@ libmacho-headers
 libmms
 libmodplug
 libmpcdec
+libmysofa
 libnetpbm
 libnice
 libnotify
@@ -144,6 +151,7 @@ libsecret
 libshout2
 libsndfile
 libssh2
+libtapi
 libtasn1
 libtheora
 libtool
@@ -158,6 +166,7 @@ llvm-8.0
 llvm-9.0
 llvm_select
 lz4
+lzip
 lzo2
 m4
 mesa
@@ -169,6 +178,7 @@ neon
 nettle
 ninja
 openal-soft
+openal-soft-native-tools
 openexr
 openjade
 openjpeg
@@ -246,8 +256,15 @@ popt
 portaudio
 potrace
 pulseaudio
+py27-beaker
+py27-cairo
+py27-funcsigs
+py27-gobject
 py27-libxml2
 py27-mako
+py27-markupsafe
+py27-setuptools
+py27-simplejson
 pygments_select
 python2_select
 python3_select
