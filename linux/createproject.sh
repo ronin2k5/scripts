@@ -19,7 +19,8 @@ cd $PROJ_NAME
 
 #initialize git if argument provided
 if [ -n "${GIT_URL-unset}" ] 
-then    touch README.md
+then
+    touch README.md
     git init
     git add .
 
