@@ -86,7 +86,7 @@ def updateFile(args):
 
                     if len(sectionstack) > 1 or sectionstack[0] > 1:
 
-                        outf.write("\n[Back to Table Of Contents](#table-of-contents)\n\n")
+                        outf.write("[Back to Table Of Contents](#table-of-contents)\n\n")
 
                 outf.write(level * '#')
 
