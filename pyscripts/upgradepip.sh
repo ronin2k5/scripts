@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo -H pip3 install --upgrade pip
+sudo -H python -m pip install --upgrade pip

@@ -58,7 +58,11 @@ sudo rm -rf /private/var/log/*
 
 #Xcode junk
 
+#system cache
+sudo purge
+
 #system cache files
+sudo rm -rf /Library/Caches/*
 
 #broken login items
 

@@ -1,3 +1,3 @@
 @echo off
 
-pip show %1
+python -m pip show %1

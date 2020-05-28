@@ -1,3 +1,3 @@
 #!/bin/sh
 
-pip3 freeze > requirements.txt
+python -m pip freeze > requirements.txt

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-pip3 show $1
+python -m pip show $1
