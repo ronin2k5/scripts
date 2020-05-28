@@ -6,34 +6,19 @@ Collection of useful scripts. This collection and the scripts within it will evo
 
 - collection of scripts for managing python projects
 
-## [beanshell-console.sh](https://github.com/ronin2k5/scripts/blob/master/beanshell-console.sh)
+## [linux/](https://github.com/ronin2k5/scripts/blob/master/linux/)
 
-- launch beanshell
+- collection of scripts for linux and other compatible OS'
 
-## [createproject.bat](https://github.com/ronin2k5/scripts/blob/master/createproject.bat) / [createproject.sh](https://github.com/ronin2k5/scripts/blob/master/createproject.sh)
+## [mac/](https://github.com/ronin2k5/scripts/blob/master/mac/)
 
-- create a new project with github setup
+- collection of scripts for macos
 
-## [initprojectdb.sh](https://github.com/ronin2k5/scripts/blob/master/initprojectdb.sh)
+## [universal/](https://github.com/ronin2k5/scripts/blob/master/universal/)
 
-- create initial project database
+- collection of scripts which should work on all platforms
+    - probably written in python
 
-## [listpath.sh](https://github.com/ronin2k5/scripts/blob/master/listpath.sh)
+## [windows/](https://github.com/ronin2k5/scripts/blob/master/windows/)
 
-- list the path environment variable as a list
-
-## [touch.bat](https://github.com/ronin2k5/scripts/blob/master/touch.bat)
-
-- touch command for Windows
-
-## [updateall.sh](https://github.com/ronin2k5/scripts/blob/master/updateall.sh)
-
-- software update script for macOS
-
-## [wineLaunch.sh](https://github.com/ronin2k5/scripts/blob/master/wineLaunch.sh)
-
-- launch Wine
-
-## [wipeFreeSpace.sh](https://github.com/ronin2k5/scripts/blob/master/wipeFreeSpace.sh)
-
-- wipe all empty space on macOS drive
+- collection of scripts for windows
