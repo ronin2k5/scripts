@@ -1,5 +1,5 @@
 #!/bin/zsh
 
-rm *.txt
-rm *.csv
-rm packages.db
+rm -f *.txt
+rm -f *.csv
+rm -f packages.db

@@ -9,6 +9,9 @@ source ./listallbrews.sh
 echo Getting list of all installed Brews...
 source ./listinstalledbrews.sh
 
+echo Updating Port Definitions...
+sudo port selfupdate
+
 echo Getting list of active Ports...
 source ./listactiveports.sh
 

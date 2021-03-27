@@ -13,7 +13,7 @@ if __name__ == '__main__':
     portsfilename = sys.argv[1]
 
     with open(portsfilename, "r") as portsfile:
-        ports = portsfile.readlines()
+        ports = portsfile.read().splitlines()
 
         for port in ports:
             convert(port)

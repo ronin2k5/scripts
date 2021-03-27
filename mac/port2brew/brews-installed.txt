@@ -27,6 +27,7 @@ chromaprint
 cmake
 coreutils
 curl-openssl
+dav1d
 dbus
 dos2unix
 doxygen
@@ -42,6 +43,7 @@ freetype
 frei0r
 fribidi
 gawk
+gdb
 gdbm
 gdk-pixbuf
 gettext
@@ -54,6 +56,7 @@ gmp
 gnome-common
 gnutls
 go
+gobject-introspection
 gperf
 graphite2
 groff
@@ -61,6 +64,7 @@ gsettings-desktop-schemas
 gst-plugins-base
 gstreamer
 gtk+3
+guile
 gzip
 harfbuzz
 help2man
@@ -79,11 +83,13 @@ jasper
 jemalloc
 jpeg
 json-glib
+krb5
 lame
 leptonica
 libarchive
 libass
 libatomic_ops
+libb2
 libbluray
 libcroco
 libepoxy
@@ -120,6 +126,7 @@ libxml2
 libyaml
 libzip
 little-cms2
+lz4
 lzip
 lzo
 mcrypt
@@ -137,6 +144,7 @@ node
 node@8
 opencore-amr
 openjdk
+openjdk@11
 openjpeg
 openldap
 openssl
@@ -156,6 +164,7 @@ python
 python3
 python@2
 python@3.8
+rav1e
 rbenv
 re2c
 readline
@@ -170,6 +179,7 @@ sdl2
 snappy
 speex
 sqlite
+srt
 ssh-askpass
 swig
 tesseract
@@ -187,3 +197,4 @@ yasm
 yelp-tools
 zenity
 zsh
+zstd
