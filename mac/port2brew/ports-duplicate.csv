@@ -1,5 +1,8 @@
 autoconf-archive
 automake
-jpeg
-libarchive
-libuv
+cmake
+enchant
+gawk
+groff
+jemalloc
+pcre

@@ -12,7 +12,7 @@ def get_immediate_deps(portname):
     deps = []
 
     if portname not in cached_deps:
-        output = subprocess.Popen(["port","deps", portname], stdout=subprocess.PIPE).communicate()[0]
+        output = subprocess.Popen(["/opt/local/bin/port","deps", portname], stdout=subprocess.PIPE).communicate()[0]
         lines = output.splitlines()
         for line in lines:
             if line.startswith(dep_line_lib_prefix):

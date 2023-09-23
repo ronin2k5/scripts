@@ -1,3 +1,10 @@
-enchant
-texinfo
+findutils
+graphviz
+grep
+gtk-doc
+ilmbase
+isl
+libmpc
+links
+meson
 xmlto

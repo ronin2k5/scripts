@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-port installed active > ports-active.txt
+/opt/local/bin/port installed active > ports-active.txt
